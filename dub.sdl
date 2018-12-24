@@ -5,8 +5,8 @@ copyright "Copyright © 2018, Jonathan Levi"
 license "MIT"
 
 targetPath	"build"
-sourcePaths	"src" "../stigma_protocol/src"
-importPaths	"src" "../stigma_protocol/src"
+sourcePaths	"src" "../stigma_protocol/src" "../version"
+importPaths	"src" "../stigma_protocol/src" "../version"
 
 dependency "cst"	version="~>1.0"
 dependency "queue"	version="~>1.0"
